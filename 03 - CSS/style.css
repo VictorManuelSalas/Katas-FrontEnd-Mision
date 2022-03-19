@@ -1,0 +1,762 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.959);
+    padding: 2% 0% 3% 3%;
+    position: absolute;
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgb(73, 73, 233);
+    margin-top: 1.5%;
+    margin-left: 6%;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav div {
+    width: 60%;
+    display: flex;
+    margin-right: 5%;
+}
+
+ul {
+    width: 80%;
+    display: flex;
+    padding-top: 4%;
+}
+
+ul li {
+    margin-left: 10%;
+    list-style: none;
+}
+
+ul li a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: grey;
+
+}
+
+#enviar {
+    width: 30%;
+    height: 110%;
+    background-color: rgb(73, 73, 233);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer; 
+    border: 0ch;
+    margin-top: 1.5%;
+    box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+    -webkit-box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+    -moz-box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+
+}
+
+#first {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+#text-principal {
+    width: 50%;
+    padding: 8%;
+    padding-top: 15%;
+    position: relative;
+}
+
+#img {
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    padding-top: 4%;
+
+}
+
+#img img {
+    width: 100%;
+    height: 780px;
+}
+
+#text-principal h1 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(1, 1, 97);
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+#text-principal p {
+    color: rgb(107, 105, 105);
+    font-size: 1.8rem;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icons-first, .icon-slider {
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-between;
+}
+
+.icon-slider {
+    width: 50%;
+    height: fit-content;
+    justify-content: flex-start;
+}
+
+.icon-slider h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(107, 105, 105);
+    font-size: 1.2rem;
+    margin-left: 10%;
+}
+
+.text-icon {
+    font-size: 1rem;
+}
+
+#schedule {
+    width: 100%;
+    height: fit-content;
+    margin-top: 20%;
+    display: flex;
+}
+
+#schedule span {
+    display: flex;
+    color: rgb(17, 0, 255);
+    font-size: 1.8rem;
+    background: rgb(217, 232, 255);
+    padding: 20%;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+    -webkit-box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+    -moz-box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+}
+
+#schedule h3 {
+    margin-left: 4%;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(58, 51, 122);
+    font-size: 1.5rem;
+}
+
+#footer-principal-page {
+    position: absolute;
+    bottom: 2%;
+    left: 8%;
+    width: 60%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.973);
+    display: flex;
+    align-items: center;
+    padding-bottom: 2.5%;
+    box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+    -webkit-box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+    -moz-box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+}
+
+.icons {
+    display: flex;
+    width: 100%;
+}
+
+.icons div {
+    display: flex;
+    width: 100%;
+    margin-left: 7%;
+    margin-top: 5%;
+    width: 25%;
+}
+
+.icons div span {
+    display: flex;
+    color: rgb(17, 0, 255);
+    font-size: 1.8rem;
+    background: rgb(217, 232, 255);
+    padding: 1%;
+    height: 50%;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+#footer-principal-page input {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(73, 73, 233);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 1.2%;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    margin-right: 3%;
+    margin-top: 4%;
+    border: 0ch;
+    box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+    -webkit-box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+    -moz-box-shadow: -3px 6px 14px 0px rgba(176, 176, 176, 1);
+
+}
+
+#text p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(58, 51, 122);
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+#text b{
+    padding-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(58, 51, 122);
+    font-size: 1rem;
+    margin-bottom: 10%;
+}
+#vaccine-name{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 1% 8%;
+    margin-bottom: 10%;
+}
+#question{
+    padding: 0% 8% 8% 8%;
+}
+#question h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(1, 1, 97);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+#text-question{
+    color: rgb(107, 105, 105);
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+#benefits{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+}
+.card{
+    width: 23%;
+    padding: 3% 2%;
+    border: solid rgba(194, 194, 194, 0.356) 1px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.icon-q span {
+    display: flex;
+    color: rgb(17, 0, 255);
+    font-size: 1.8rem;
+    background: rgb(234, 242, 255);
+    padding: 2.5%;
+    width: 20%;
+    height: 55%;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.card:hover{
+    box-shadow: 1px 11px 20px -5px rgba(18,18,18,0.75);
+    -webkit-box-shadow: 1px 11px 20px -5px rgba(18,18,18,0.75);
+    -moz-box-shadow: 1px 11px 20px -5px rgba(18,18,18,0.75);
+    
+}
+.card:hover .icon-q span{
+   
+        box-shadow: 1px 11px 20px -5px rgba(18,18,18,0.75);
+        -webkit-box-shadow: 1px 11px 20px -5px rgba(18,18,18,0.75);
+        -moz-box-shadow: 1px 11px 20px -5px rgba(18,18,18,0.75);
+        
+}
+.card h3{
+    color: rgb(102, 98, 138);
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+.card p{
+    color: rgb(107, 105, 105);
+    font-size: 0.9rem;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text-preparation h2{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(1, 1, 97);
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+    
+}
+#text-preparation p{
+    color: rgb(107, 105, 105);
+    font-size: 1.4rem;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+/*Triangulos*/
+
+#triangulo1{
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    z-index: -1;
+    top: 15%;
+    left: 3%;
+    transform: rotateZ(-180deg);
+}
+#triangulo2{
+    width: 350px;
+    height: 125px;
+    position: absolute;
+    z-index: -1;
+    top: 52%;
+    left: 67%;
+    transform: rotateZ(-90deg);
+}
+#triangulo3{
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    z-index: 10;
+    top: 170%;
+    right: -5%;
+    transform: rotateZ(-90deg);
+}
+#triangulo4{
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    z-index: 1;
+    top: 260%;
+    left: -6%;
+    transform: rotateZ(90deg);
+}
+#triangulo5{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    z-index: -1;
+    bottom: -30%;
+    right: 1%;
+    transform: rotateZ(0deg);
+}
+/*Parte 2 de css*/
+#preparation {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2em;
+    padding: 0% 2%;
+    padding-left: 0%;
+    padding-bottom: 15%;
+}
+
+#img-preparation {
+    padding-top: 10%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#img-preparation img {
+    width: 100%;
+}
+
+#text-preparation {
+    height: fit-content;
+    position: relative;
+
+}
+
+#menu {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 10%;
+
+}
+
+#menu li {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(107, 105, 105);
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 4%;
+    padding: 3%;
+    font-family: 'Roboto', sans-serif;
+    border: solid 2px rgba(128, 128, 128, 0.123);
+    border-radius: 1rem;
+}
+
+#menu li p {
+    padding-left: 8%;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.section-icons-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+#menu li span {
+    height: fit-content;
+    padding: 2%;
+    margin-right: 3%;
+    color: rgb(17, 0, 255);
+    font-size: 1.8rem;
+    background: rgb(217, 232, 255);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon-text {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+/*
+Este es de los iconos y el texto del menu desplegable de la seccion de preparacion
+*/
+#arrows {
+    cursor: pointer;
+}
+
+#down-1 {
+    display: flex;
+}
+
+.active #down-1 {
+    display: none;
+}
+
+#up-1 {
+    display: none;
+}
+
+.active #up-1 {
+    display: flex;
+}
+
+
+
+#up-2, #up-3, #up-4, #up-5 {
+    display: none;
+}
+
+.lola1 {
+    display: none;
+}
+
+.lola2 {
+    display: none;
+}
+
+.lola3 {
+    display: none;
+}
+
+.lola4 {
+    display: none;
+}
+
+.lola5 {
+    display: none;
+}
+
+/*
+Asta aqui termina
+*/
+
+#contact {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2em;
+    padding: 0%;
+    padding-bottom: 15%;
+    padding-left: 8%;
+}
+
+#text-preparation h2 {
+    margin-bottom: 8%;
+}
+
+#conte {
+    height: fit-content;
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.cards-contact {
+    padding: 10%;
+    height: fit-content;
+    border: solid rgba(170, 170, 170, 0.411) 1px;
+    border-radius: 0.5rem;
+}
+
+.up {
+    display: flex;
+    margin-bottom: 7%;
+}
+
+.up .text-up-cards b {
+    color: rgb(107, 105, 105);
+    font-size: 1.1rem;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.up .text-up-cards p {
+    color: rgb(107, 105, 105);
+    font-size: 1rem;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.up span {
+    height: fit-content;
+    padding: 3.5%;
+    margin-right: 3%;
+    color: rgb(17, 0, 255);
+    font-size: 1.8rem;
+    background-color: rgba(217, 232, 255, 0.342);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.down input {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(217, 232, 255, 0.342);
+    color: rgb(17, 0, 255);
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 5%;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    border: 0ch;
+}
+
+.cards-contact:hover {
+    box-shadow: -2px 28px 31px -2px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: -2px 28px 31px -2px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: -2px 28px 31px -2px rgba(0, 0, 0, 0.54);
+}
+
+.cards-contact:hover .up span {
+    box-shadow: -2px 28px 41px -2px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: -2px 28px 41px -2px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: -2px 28px 41px -2px rgba(0, 0, 0, 0.54);
+}
+
+.cards-contact:hover .down input {
+    background-color: rgb(17, 0, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 11px 20px -5px rgba(18, 18, 18, 0.75);
+    -webkit-box-shadow: 1px 11px 20px -5px rgba(18, 18, 18, 0.75);
+    -moz-box-shadow: 1px 11px 20px -5px rgba(18, 18, 18, 0.75);
+
+}
+
+footer {
+    background-color: rgba(217, 232, 255, 0.342);
+    height: fit-content;
+    padding: 5% 7% 3% 7%;
+}
+
+#superior{
+display: flex;
+justify-content: space-between;
+}
+#inferior{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+#inferior div{
+    width: 26%;
+    color: rgb(107, 105, 105);
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+#inferior a{
+    margin-left: 8%;
+    color: rgb(107, 105, 105);
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    
+}
+#fi-start  h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(73, 73, 233);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+#fi-start p{
+    color: rgb(107, 105, 105);
+    font-size: 1.0rem;
+    margin-top: 13%;
+    font-family: 'Roboto', sans-serif;
+}
+#fi-end{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#fi-end h3{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(1, 1, 97);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#fi-end div{
+    display: flex;
+    flex-direction: column;
+}
+.menus-footer{
+    display: inline;
+    width: 100%;
+    height: fit-content;
+}
+.menus-footer li{
+    width: 100%;
+    height: fit-content;
+    margin-top: 30%;
+}
+.menus-footer li a{
+    color: rgb(107, 105, 105);
+    font-size: 1.0rem;
+    margin-bottom: 20%;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Parte 3 de css en lo responsive*/
+@media only screen and (max-width: 1440px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    #enviar {
+        width: 28%;
+        height: 100%;
+        background-color: rgb(73, 73, 233);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        margin-top: 1.5%;
+        border: 0ch;    
+    }
+
+    ul {
+        width: 80%;
+        display: flex;
+        padding-top: 5%;
+    }
+
+    ul li {
+        margin-left: 5%;
+        list-style: none;
+    }
+
+    ul li a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: grey;
+    }
+
+    #text-principal h1 {
+        font-family: 'Hind Siliguri', sans-serif;
+        color: rgb(1, 1, 97);
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: 2%;
+    }
+
+    #text-principal p {
+        color: rgb(107, 105, 105);
+        font-size: 1.4rem;
+        margin-bottom: 2%;
+        margin-top: 3%;
+        font-family: 'Roboto', sans-serif;
+    }
+}
