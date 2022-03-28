@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./style-poke.css">
+    <script defer src="./script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="https://img.icons8.com/ios-filled/50/000000/reply-arrow.png" onclick="backpage()"/>
+        <h1>Pokedex LaunchX</h1>
+        <input type="text" placeholder="Pikachu" id="pokeName" name="pokeName"> 
+        <button onclick="fetchPokemon()">Search</button>
+    </header>
+
+    <section>
+        <div class="apartados">
+            <img src="./img/pokeball.gif" alt="Pokemon" class="imagen-pokebola" id="pokeImg" style="width: 500px; height: 400px; margin-top: 7%;">
+        </div>
+        <div class="apartados">
+            <div id="body" class="contenedor">
+                <img src="./img/interrogacion.png" alt="Interrogacion" id="pokeImg2" style="width: 300px; ">
+
+                <div class="datos">
+                    <div class="name-id">
+                        <h2 id="name"></h2>
+                        <p id="id"></p>
+                    </div>
+                    <div id="tipos"></div>
+                    <div class="dexripcion">
+                        <p  id="description">  </p>
+                    </div>
+
+                    <div class="estadisticas">
+                        <div id="title-estadistica"></div>
+                        <div id="barras"></div>
+                        <div id="numberestadistica"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<footer>
+    <script src="./script.js"></script>
+</footer>
+
+</html>
